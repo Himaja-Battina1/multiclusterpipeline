@@ -20,8 +20,8 @@ pipeline {
 	
 	  
 	
-//def response_code = codeOutput.tokenize('\n')[-1].toInteger()
-def response_code=503
+def response_code = codeOutput.tokenize('\n')[-1].toInteger()
+//def response_code=503
             
             
 if(response_code!=null){
